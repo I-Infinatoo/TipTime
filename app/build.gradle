@@ -17,6 +17,9 @@ android {
         versionCode 1
         versionName "1.0"
 
+        // To enable the support of vectorDrawables for the lower level of API(<19).
+        vectorDrawables.useSupportLibrary = true
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

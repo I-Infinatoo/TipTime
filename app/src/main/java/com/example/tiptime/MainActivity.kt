@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun calculateTip() {
 
-        val stringInTextField = binding.costOfService.text.toString()  //It will take input as a complete text in string form.
+        val stringInTextField = binding.costOfServiceEditText.text.toString()  //It will take input as a complete text in string form.
         val cost = stringInTextField.toDoubleOrNull()
 
         if (cost == null) {
